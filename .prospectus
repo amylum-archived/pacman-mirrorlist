@@ -1,0 +1,11 @@
+item do
+  expected do
+    static
+    set Time.now.strftime('%Y%m')
+  end
+
+  actual do
+    static
+    set File.read('version').chomp[0..5]
+  end
+end
