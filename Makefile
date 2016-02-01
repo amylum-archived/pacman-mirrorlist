@@ -1,7 +1,7 @@
 PACKAGE = pacman-mirrorlist
 ORG = amylum
 
-VERSION = $(cat version)
+VERSION = $$(cat version)
 RELEASE_DIR = /tmp/$(PACKAGE)-release
 RELEASE_FILE = /tmp/$(PACKAGE).tar.gz
 
