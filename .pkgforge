@@ -1,0 +1,17 @@
+name 'pacman-mirrolist'
+org 'amylum'
+
+patch 'license.patch'
+
+source(type: 'empty')
+
+build do
+  run "mkdir -p #{releasedir}/etc/pacman.d"
+  File.open("#{releasedir}/etc/pacman.d/mirrorlist", 'w') do |fh|
+    fh << open('https://www.archlinux.org/mirrorlist/all/').read
+  end
+end
+
+test do
+  # TODO: add tests
+end

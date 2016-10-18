@@ -1,6 +1,8 @@
 pacman-mirrorlist
 ==========
 
+[![Build Status](https://img.shields.io/circleci/project/amylum/pacman-mirrorlist/master.svg)](https://circleci.com/gh/amylum/pacman-mirrorlist)
+[![GitHub release](https://img.shields.io/github/release/amylum/pacman-mirrorlist.svg)](https://github.com/amylum/pacman-mirrorlist/releases)
 [![MIT Licensed](http://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
 Package repo for [pacman-mirrorlist](https://www.archlinux.org/mirrorlist/)
