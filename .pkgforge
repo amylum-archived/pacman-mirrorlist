@@ -10,6 +10,7 @@ build do
   File.open("#{releasedir}/etc/pacman.d/mirrorlist", 'w') do |fh|
     fh << open('https://www.archlinux.org/mirrorlist/all/').read
   end
+  nil
 end
 
 test do
