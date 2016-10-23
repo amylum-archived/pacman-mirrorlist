@@ -6,6 +6,6 @@ item do
 
   actual do
     static
-    set File.read('version').chomp[0..5]
+    set `git describe --abbrev=0 --tag`.chomp[0..5]
   end
 end
