@@ -1,4 +1,4 @@
-name 'pacman-mirrolist'
+name 'pacman-mirrorlist'
 org 'amylum'
 
 patch 'license.patch'
